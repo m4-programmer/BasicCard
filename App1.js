@@ -3,11 +3,11 @@ import React from 'react';
 import { StyleSheet, Text, View,SafeAreaView,TouchableOpacity,ScrollView  } from 'react-native';
 import { List } from './Const/Const'
 export default function App1() {
-  const [First,changeFirst] = React.useState('false')
+  const [First,changeFirst] = React.useState(false)
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.title}>
-        <Text style={styles.heading}>M4 Academy {First}</Text>
+        <Text style={styles.heading}>M4 Academy </Text>
       </View>
       
       {/* First Screen */}

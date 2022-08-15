@@ -9,7 +9,7 @@ export default function App() {
   return (
     
     <SafeAreaView style={styles.container}>
-      <App2 />
+      <App1 />
 
     </SafeAreaView>
   );
